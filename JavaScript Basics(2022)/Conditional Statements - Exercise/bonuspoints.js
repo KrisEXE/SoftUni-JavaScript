@@ -1,5 +1,5 @@
-function Main(Input) {
-    let number = Number(Input[0])
+function main(input) {
+    let number = Number(input[0])
     let bonusPoints = 0
 
     if (number <= 100)
@@ -28,4 +28,4 @@ function Main(Input) {
     console.log(number + bonusPoints)
 }
 
-Main(["20"])
+main(["20"])
